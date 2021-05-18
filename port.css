@@ -1,0 +1,240 @@
+html,body,*{
+	margin: 0;
+	padding: 0;
+}
+#home{
+	width: 100%;
+	height: 680px;
+	background: url("img/bg-masthead.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+
+}
+#home .lay{
+	background:rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    
+}
+#home h1{
+
+	font-size: 3.5em;
+	margin-top: 200px;
+	display: inline-block;
+	padding: 0 -760px;
+	padding: 0 150px;
+	
+}
+
+.row{
+	border: none;
+    background: #c94c0c;
+    height: 1.5px;
+    width: 60px;
+    display: inline-block;
+    margin-top:30px;
+    padding: 1px;
+}
+
+#home p{
+	font-style: 2em;
+	padding: 0 276px;
+	letter-spacing: 3px;
+	margin-top: 32px;
+	margin-bottom: 35px;
+	/*font-family: 'Averia Serif Libre', cursive;*/
+}
+a{
+	text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: #c94c0c;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+#home a:hover{
+	background: red;
+}
+
+/*me*/
+#me{
+	width: 100%;
+	height: 400px;
+	background: #c94c0c;
+	text-align: center;
+	color: white;
+}
+#me h1{
+	font-style: 2em;
+	padding-top: 100px;
+}
+hr{
+	border: none;
+    background: #ffffff;
+    height: 2px;
+    width: 60px;
+    display: inline-block;
+    margin-top:30px;
+    padding: 1px;
+}
+
+#me a{
+	color: black;
+	background: white;
+	font-weight: bold;
+	margin: -5px 0;
+}
+#me p{
+	font-style: 2em;
+	padding: 0 276px;
+	letter-spacing: 3px;
+	margin-top: 32px;
+	margin-bottom: 35px;
+}
+#me a:hover{
+	background: grey;
+}
+
+/*service*/
+#service{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	color: #000000;
+	padding: 50px 0;
+}
+.head{
+	width: 100%;
+	height: 30%;
+	padding: 20px 0;
+}
+#service .ro{
+	width: 90%;
+	height:70%;
+	margin-left: 5%;
+
+
+}
+.items{
+	width: 24%;
+	height: 100%;
+	display: inline-block;
+}
+#service h1{
+	font-size: 2em;	
+}
+#service hr{
+	background: #c94c0c;
+}
+#service i{
+	
+}
+#service .items h2{
+	margin: 22px 0;
+}
+
+
+/*portfolio*/
+
+#portfolio{
+	width: 100%;
+	height: 482px;
+}
+img{
+	width: 33.33%;
+	float: left;
+}
+#another{
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	background: #262629c4;
+	color: white;
+}
+#another h1{
+	font-size: 2em;
+	margin-top: 80px;
+}
+#another a{
+	background: white;
+	color: black;
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+/*contact*/
+
+#contact{
+
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background: white;
+}
+#contact .head{
+	width: 100%;
+	height: 50%;
+
+}
+#contact .rows{
+	width: 60%;
+	height: 50%;
+	margin-left: 20%;
+	
+}
+.head h1{
+	font-size: 2em;
+	margin-top: 35px;
+
+}
+#contact hr{
+	background: #c94c0c;    
+}
+.head p{
+	margin-top: 22px;
+	line-height: 25px;
+	color: grey;
+	padding: 0px 340px;
+}
+#contact .items{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+#contact .items p{
+	margin-top: 42px;
+}
+
+#contact .link{
+	background: none;
+	text-transform: lowercase;
+	color: #c94c0c;
+}
+/*
+/*#contact .part{
+	width:40%;
+	height: 100%;
+	display: inline-block;	
+	background: pink;
+}
+#contact h1{
+	    margin-top: 20px;
+	    font-size: 2em;
+}
+
+#contact p{
+	padding: 0 343px;
+	color: grey;
+	margin: 0 343px;
+}
+#contact .link{
+	background: none;
+	text-transform: lowercase;
+	color: #c94c0c;
+}*/
